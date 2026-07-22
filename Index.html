@@ -3,186 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github</title>
+    <title>PROYECTO</title>
+    <link rel="stylesheet" href="./css/style-root.css">
+    <link rel="stylesheet" href="./css/stylecss1.css">
 </head>
 <body>
-    <header id="inicio">
-        <h1>CURSO DE TEMPORADA</h1>
-        <p>clases de temporadada</p>
+    <header>
+        <div><img src="" alt=""></div>
+        <nav>
+            <ul>
+                <li><a href="">Iincio</a></li>
+                <li><a href="">Linux</a></li>
+                <li><a href="">Html</a></li>
+                <li><a href="">Css</a></li>
+                <li><a href="">Js</a></li>
+                <li><a href="">Extras</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <h2>listade las clases</h2>
-        <ul>
-            <li><a href="#inicio">inicio</a></li>
-            <li>somos nosotros</li>
-            <li>vacio</li>
-            <li><a href="#sec1">lengiajes favoritos</a></li>
-            <li><a href="#fot">la seccion final</a></li>
-        </ul>
-    </nav>
     <main>
-        <h2>centro</h2>
-        <section id="sec1">
-            <h2>LISTADOS de (ul,ol,dl)</h2>
+        <div>
+            <h1>My proyecto</h1>
+        </div>
+        <section class="linux" id="linux">
             <div>
-                <h3>Mis lengujes favoritos (usando ul)</h3>
+
+            </div>
+        </section>
+        <section class="html" id="html">
+            <div class="h2">
+                <h2>clases de Html </h2>
+            </div>
+            <div class="listas">
+                <h3>LISTADOS de (ul,ol,dl)</h3>
+                <div>
+                    <h3>usnado (ol)</h3>
+                    <ol type="1" start="3">
+                        <li>ir a registrarse</li>
+                        <li>pagar en caja</li>
+                        <li>sacar tu matricula</li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>probando la reversa de ol</h3>
+                    <ol reversed type="a">
+                        <li>salir</li>
+                        <li>medio</li>
+                        <li>entrada</li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Usando lo (dl)</h3>
+                    <dl>
+                        <dt>kernel</dt>
+                        <dd>Nucleo del sistema; habla
+                            con el hadware.
+                        </dd>
+                        <dt>shell</dt>
+                        <dd>Interprete de comandos.</dd>
+                    </dl>
+                </div>
+                <div>
+                    <h3>listados dentro de otros listados</h3>
                     <ul>
-                        <li>phyton</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                    </ul>
+                        <li>Bloque 1; linux 
+                            <ul>
+                                <li>Comandos</li>
+                                <li>Permisos</li>
+                            </ul>
+                        </li>
+                        <li>Bloque 2; web</li>
+                    </ul>   
+                </div>
             </div>
-            <div>
-                <h3>usnado (ol)</h3>
-                <ol type="1" start="3">
-                    <li>ir a registrarse</li>
-                    <li>pagar en caja</li>
-                    <li>sacar tu matricula</li>
-                </ol>
+            <div class="enlaces">
+                <h3>enlaces</h3>
+                <div>
+                    <h3>enlaces (a)</h3>
+                    <a href="https://daf.fcpn.edu.bo/informatica/">Un ancla a = https://daf.fcpn.edu.bo/informatica/</a>
+                </div>
+                <div>
+                    <h3>enlaces href</h3>
+                    <a href="https://pgi.umsa.bo">pgi umsa</a>
+                    <p>Direccion hacia otro sitios web(href="https://pgi.umsa.bo")</p>
+                    <a href="./README.md">README</a>
+                    <p>Direccion a cualquier documento de la misma carpeta del index (./*)</p>
+                    <a href="#inicio">Inicio</a>
+                    <p>dentro de la misma pagina te reedirge a una seccion especifica ("seccion id="ini" y href="#ini")</p>
+                </div>
             </div>
-            <div>
-                <h3>probando la reversa de ol</h3>
-                <ol reversed type="a">
-                    <li>salir</li>
-                    <li>medio</li>
-                    <li>entrada</li>
-                </ol>
+            <div class="tablas">
+                <h3>tablas</h3>
+                <div>
+                    <table border="0">
+                        <thead>
+                            <caption>este es un caption</caption>
+                            <tr>
+                                <th colspan="3">PRIMER SEMESTRE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>DIA</th>
+                                <th>HORA</th>
+                                <th>CLASE</th>
+                            </tr>
+                            <tr>
+                                <td>Lunes</td>
+                                <td>08:00</td>
+                                <td>web 2</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Lunes</td>
+                                <td>08:00</td>
+                                <td>web 1</td>
+                            </tr>
+                            <tr>
+                                <td>10:00</td>
+                                <td>calculo 1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div>
-                <h3>Usando lo (dl)</h3>
-                <dl>
-                    <dt>kernel</dt>
-                    <dd>Nucleo del sistema; habla
-                        con el hadware.
-                    </dd>
-                    <dt>shell</dt>
-                    <dd>Interprete de comandos.</dd>
-                </dl>
-            </div>
-            <div>
-                <h3>listados dentro de otros listados</h3>
-                <ul>
-                    <li>Bloque 1; linux 
-                        <ul>
-                            <li>Comandos</li>
-                            <li>Permisos</li>
-                        </ul>
-                    </li>
-                    <li>Bloque 2; web</li>
-                </ul>   
-            </div>
-        </section>
-        <section>
-            <h2>enlaces</h2>
-            <div>
-                <h3>enlaces (a)</h3>
-                <a href="https://daf.fcpn.edu.bo/informatica/">Un ancla a = https://daf.fcpn.edu.bo/informatica/</a>
-            </div>
-            <div>
-                <h3>enlaces href</h3>
-                <a href="https://pgi.umsa.bo">pgi umsa</a>
-                <p>Direccion hacia otro sitios web(href="https://pgi.umsa.bo")</p>
-                <a href="./README.md">README</a>
-                <p>Direccion a cualquier documento de la misma carpeta del index (./*)</p>
-                <a href="#inicio">Inicio</a>
-                <p>dentro de la misma pagina te reedirge a una seccion especifica ("seccion id="ini" y href="#ini")</p>
-           </div>
-        </section>
-        <section>
-            <h2>tablas</h2>
-            <div>
-                <table border="0">
-                    <thead>
-                        <tr>
-                            <th colspan="3">PRIMER SEMESTRE</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>DIA</th>
-                            <th>HORA</th>
-                            <th>CLASE</th>
-                        </tr>
-                        <tr>
-                            <td>Lunes</td>
-                            <td>08:00</td>
-                            <td>web 2</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2">Lunes</td>
-                            <td>08:00</td>
-                            <td>web 1</td>
-                        </tr>
-                        <tr>
-                            <td>10:00</td>
-                            <td>calculo 1</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        <section>
-            <h2>URL de Imagenes</h2>
-            <div>
+            <div class="img">
+                <h3>URL de Imagenes</h3>
                 <figure>
                     <img src="./img/monoblock.jpg" alt="Fachada de la monoblock">
                     <figcaption>El Monoblock central, simbolo de la Umsa</figcaption>
                 </figure>
             </div>
-        </section>
-        <section>
-            <h2>URL de videos</h2>
-            <div>
+            <div class="vid">
+                <h3>URL de videos</h3>
                 <video controls width="480" poster="./img/media1.png">
                     <source src="./media/umsavid.webm" type="video/webm">
                     <source src="./media/Michael Jackson - Chicago (Official Audio) (1).mp4" type="video/mp4">
                     tu html no soporta media
                 </video>
             </div>
+            <div class="form">
+                <h3>Formularios</h3>
+                <div>
+                    <h3>from y accion</h3>
+                    <form action="/procesar" method="post">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Imput la etiqueta cambia</h3>
+                    <input type="text"><!-- texto corto-->>
+                    <input type="email"><!-- texto corto-->>
+                    <input type="password"><!-- texto corto-->>
+                    <input type="number"><!-- texto corto-->>
+                    <input type="date"><!-- texto corto-->>
+                    <input type="checkbox"><!-- texto corto-->>
+                    <input type="radio"><!-- texto corto-->>
+                </div>
+                <div>
+                    <h3>label la estrella de accebilidad</h3>
+                    <label for="correo">Tu correo electronico</label>
+                    <input type="email" name="correo" id="correo">
+                    </div>
+                <div>
+                    <h3>Imput la etiqueta cambia</h3>
+                    <input type="text" placeholder="ingrese texto"><!-- texto corto-->>
+                    <input type="email" placeholder="ingrese email"><!-- texto corto-->>
+                    <input type="password" placeholder="ingrese contrasena"><!-- texto corto-->>s
+                    <input type="number" placeholder="ingrese numeros"><!-- texto corto-->>
+                    <input type="date" ><!-- fecha-->>
+                    <input type="checkbox"><!-- texto corto-->>
+                    <input type="radio"><!-- texto corto-->>
+                </div>
+                <div>
+                    <p>Turnos (Elige uno):</p>
+                    <input type="radio" id="m" name="turno" value="manana">
+                    <label for="m">Manana</label>
+                    <input type="radio" id="t" name="turno" value="tarde">
+                    <label for="t">Tarde</label>
+                    <br>
+                    <input type="checkbox" id="acepto" name="acepto">
+                    <label for="acepto">Acepto los Terminos </label> 
+                </div>
+                <div>
+                    <h3>select y textarea</h3>
+                    <label for="depto">Departamento</label>
+                    <select id="depto" name="depto">
+                        <option value="">--ELIGE--</option>
+                        <option value="lp">La Paz</option>
+                        <option value="cbba">Cochabamba</option>
+                        <option value="pnd">Pando</option>
+                        <option value="bn">Beni</option>
+                        <option value="orr">Oruro</option>
+                        <option value="chq">Chuquisaca</option>
+                        <option value="pt">Potosi</option>
+                        <option value="st">Santa Cruz</option>
+                        <option value="trj">Tarija</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="msj">Tu mensaje</label>
+                    <textarea id="msj" name="msj" rows="4"></textarea>
+                </div>
+                <div>
+                    <input type="text" name="nombre" required minlenght="3">
+                    <input type="email" name="correo" required>
+                    <input type="number" name="edadd" min+="17" max="99">
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Formularios</h2>
+        <section class="css" id="css">
             <div>
-                <h3>from y accion</h3>
-                <form action="/procesar" method="post">
-                    <button type="submit">Enviar</button>
-                </form>
+                <h2 class="h2">Integracion de Css</h2>
             </div>
-            <div>
-                <h3>Imput la etiqueta cambia</h3>
-                <input type="text"><!-- texto corto-->>
-                <input type="email"><!-- texto corto-->>
-                <input type="password"><!-- texto corto-->>
-                <input type="number"><!-- texto corto-->>
-                <input type="date"><!-- texto corto-->>
-                <input type="checkbox"><!-- texto corto-->>
-                <input type="radio"><!-- texto corto-->>
+            <div class="sty">
+                <h1 class="sh1">Proyecto de Temp</h1>
+                <!--<p style="color: red ;">mi web</p>-->
+                <p>mi web</p>
+                <p id="side">parrafo llamado por id</p>
+                <p class="sdestacado">parrafo llamado por clasee</p>
+                <p class="sejemplo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis quo, illo deserunt ducimus tempore dolorem dolore nemo exercitationem sequi enim possimus ipsum ad ex eligendi optio impedit consequatur harum?</p>
+                <p class="sp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit maxime, minus odio doloribus dolores voluptatum magnam, deleniti maiores eius ullam nam, quam atque! Fugiat quisquam quia inventore illum laudantium error?</p>
+
+                <h2 class="sh2">la cosa es diferente</h2>
+                <p class="sp">mi web afasfafafasfasfafasfa</p>
+                <div>
+                    <p class="sp">hola de la seecion</p>
+                    <p class="sp">hola de la seecion</p>
+                    <p class="sp">hola de la seecion</p>
+                    <p class="sp">hola de la seecion</p>
+                </div>
             </div>
+
+        </section>
+        <section class="js" id="js">
             <div>
-                <h3>label la estrella de accebilidad</h3>
-                <label for="correo">Tu correo electronico</label>
-                <input type="email" name="correo" id="correo">
+
             </div>
+        </section>
+        <section class="extr" id="extr">
             <div>
-                <h3>Imput la etiqueta cambia</h3>
-                <input type="text" placeholder="ingrese texto"><!-- texto corto-->>
-                <input type="email" placeholder="ingrese email"><!-- texto corto-->>
-                <input type="password" placeholder="ingrese contrasena"><!-- texto corto-->>s
-                <input type="number" placeholder="ingrese numeros"><!-- texto corto-->>
-                <input type="date" ><!-- fecha-->>
-                <input type="checkbox"><!-- texto corto-->>
-                <input type="radio"><!-- texto corto-->>
+
             </div>
         </section>
     </main>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus deserunt animi veritatis fugiat. Eveniet voluptatibus consequatur necessitatibus fugit temporibus quis nisi libero velit, exercitationem porro quaerat, molestiae accusantium quidem corrupti.</p>
-    </section>
-    <footer id="fot">
-        <h3>numeros</h3>
-        <p><strong>45554-4564665</strong></p>
-        <p>la palabra <strong>negrilla</strong> esta remarcada</p>
-    </footer>
+    <aside>
 
+    </aside>
+    <footer>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+    </footer>
 </body>
 </html>

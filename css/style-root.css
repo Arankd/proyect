@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-fondprincipal: #0D0D0D;
+    --color-fondsecundario: #1A1A1A;
+    --color-fondtarjetas: #242424;
+    --color-acentprincipal: #FF6B00;
+    --color-bordbott: #FF5500;
+    --color-textprinc: #F0F0F0;
+    --color-textsecc: #888888;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
