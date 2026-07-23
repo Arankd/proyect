@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROYECTO</title>
     <link rel="stylesheet" href="./css/style-root.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/stylecss1.css">
+    <link rel="stylesheet" href="./css/stylecss2.css">
+    <link rel="stylesheet" href="./css/stylecss3.css">
+    <link rel="stylesheet" href="./css/stylecss4.css">
 </head>
 <body>
     <header>
@@ -51,7 +55,7 @@
                         <li>medio</li>
                         <li>entrada</li>
                     </ol>
-                </div>
+                </div>%
                 <div>
                     <h3>Usando lo (dl)</h3>
                     <dl>
@@ -232,12 +236,308 @@
                     <p class="sp">hola de la seecion</p>
                     <p class="sp">hola de la seecion</p>
                 </div>
+                
+                <div>
+                    <h3>codigo css</h3>
+                    <p>.sh1{
+                            color: blue;
+                        }
+                        .sp{
+                            background-color: blue;
+                            color: rgb(210, 95, 95);
+                        }
+                        .sdestacado{
+                            color: #D4A017;
+                        }
+                        #side{
+                            background-color: #D4A017;
+                        }
+                        .sejemplo{
+                            color: brown;
+                            background-color: greenyellow;
+                        }
+                        .sh2{
+                            color: #D4A017;
+                        }
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h3>Margin, Padding y border</h3>
+                <nav>
+                    <ul class="sul">
+                        <li class="sli"><a href="">inicio</a></li>
+                        <li class="sli"><a href="">somos nosotros</a></li>
+                        <li class="sli"><a href="">validos</a></li>
+                        <li class="sli"><a href="">lengiajes favoritos</a></li>
+                        <li class="sli"><a href="">la seccion final</a></li>
+                    </ul>
+                </nav>
+                <p>.slu{
+                        list-style: none;
+                        padding: 0;
+                    }
+                    .sli{
+                        margin:  0 10px;
+                        border: 1px solid blue;
+                        border-radius: 5px;
+                        padding: 10px;
+                        box-sizing: border-box;
+                    }
+                </p>
+            </div>
+            <div>
+                <h3>Uso del root</h3>
+                <div class="rot">
+                    <h3 class="roth">loremimpusum</h3>
+                </div>
+                <div class="rot">
+                    <p class="rotp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla adipisci ducimus similique necessitatibus? Ipsum temporibus laboriosam voluptas eius sequi est eos cupiditate pariatur illum vero? Est eos cumque numquam itaque.</p>
+                </div>
+                <div>
+                    <p class="rotp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rerum accusantium id esse molestias itaque repellendus labore, harum dicta deleniti commodi recusandae sed vel ipsam officiis sequi dolores laudantium repudiandae.</p>
+                </div>
+                <p>
+                    :root{
+                        --color-sprincipal: #0f2b52;
+                        --color-sacento: #D4A017;
+                        --espacio: 16px;
+                    }
+                    .rotp{
+                        background-color: var(--color-principal);
+                        color: var(--color-acento);
+                        border: solid 10px;
+                        border-style: double;
+                        border-radius: 5.45%;
+                        padding: var(--espacio);
+                    }
+                    .roth{
+                        color: var(--color-acento);
+                        padding: 1rem;
+                        text-align: center;
+                        background-color: var(--color-principal);
+                        border: 1rem ;
+                        border-style: groove;
+                        box-sizing: border-box;
+                    }
+                </p>
+            </div>
+            <div>
+                <h3>El display flex</h3>
+                <section class="padre-card">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </section>
+                <section class="padre-card1">
+                    <div class="card1"></div>
+                    <div class="card1"></div>
+                    <div class="card1"></div>
+                </section>
+                <section class="padre-card2">
+                    <div class="card2"></div>
+                    <div class="card2"></div>
+                    <div class="card2"></div>
+                </section>
+                <section class="padre-card3">
+                    <div class="card3"></div>
+                    <div class="card3"></div>
+                    <div class="card3"></div>
+                </section>
+                <section class="padre-card4">
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                    <div class="card4"></div>
+                </section>
+                <p>
+                    .padre-card{
+                        width: 100%;
+                        height: 300px;
+                        display: flex;
+                        border: 1px solid #9b9898;
+                        flex-direction: row-reverse;
+                        justify-content: flex-start;
+                        align-items: center;
+                        flex-wrap: wrap; 
+                        gap: 30px 10px;
+                    }
+                    .card{
+                        width: 40px;
+                        height: 40px;
+                        flex: 0 0 150px;
+                        border-radius: 10px;
+                        background-color: black;
+                    }
+                    .padre-card1{
+                        width: 100%;
+                        height: 300px;
+                        border: 1px solid #9b9898;
+                        display: flex;
+                        flex-direction: row-reverse;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                    }
+                    .card1{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 10px;
+                        background-color: black;
+                    }
+                    .padre-card2{
+                        width: 100%;
+                        height: 300px;
+                        border: 1px solid #9b9898;
+                        display: flex;
+                        justify-content: flex-end;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .card2{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 10px;
+                        background-color: black;
+                    }
+                    .padre-card3{
+                        width: 100%;
+                        height: 300px;
+                        border: 1px solid #9b9898;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .card3{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 10px;
+                        background-color: black;
+
+                    }
+                    .padre-card4{
+                        width: 100%;
+                        height: 305px;
+                        border: 1px solid #9b9898;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        flex-wrap: wrap;
+                    }
+                    .card4{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 10px;
+                        flex: 0 0 150px;
+                        background-color: black;
+                    }
+                </p>
+            </div>
+            <div>
+
             </div>
 
         </section>
         <section class="js" id="js">
             <div>
+                <h2>entramos a javascript</h2>
+            </div>
+            <div>
+                <h3>const alert </h3>
+                <p>los const es una var mejorado el cual es mas seguro</p>
+                <p>Y el alert es para mandar una alerta</p>
+                <p>
+                    const nombre = prompt("Como te llamas: ");
+                    const edad = Number(prompt("Cual es tu edad: "));
+                    alert("hola," + nombre);
+                    console.log(`hola ${nombre}, tienes ${edad}`);
+                </p>
+            </div>
+            <div>
+                <h3>Ciclos</h3>
+                <p>llama a ciclos con if y do</p>
+                <p>
+                    if ( edad >= 18 ) {
+                        console.log("Mayor");
+                    }else if(edad >= 13 ){
+                        console.log("Adolecente");
+                    }else{
+                        console.log("Menor");
+                    }
+                </p>
+            </div>
+            <div>
+                <h3>Funciones</h3>
+                <p>tambien se pueden llamar a funcciones </p>
+                <p>
+                    const nombre = prompt("Introduce tu nombre")
+                    function saludar(nombre) {
+                        return `Hola, ${nombre}`;
+                    }
+                    console.log(saludar(nombre));
+                </p>
+                <p>
+                    function suma(a, b){
+                        return a + b ;
+                    }
+                    let res = suma(5, 3);
+                    console.log(res);
+                </p>
+            </div>
+            <div>
+                <h3>Modificaciones desde Javascript</h3>
+                <p>podemos llamar aun document y luego con el querySelector y luego hacer los cambios respectivos</p>
+                <p>
+                    const titulo = document.querySelector("h1");
 
+                    console.log(titulo);
+
+                    titulo.textContent = "Nuevo titulo";
+
+                    const caja = document.querySelector("#caja");
+                    caja.innerHTML = "<>hola desde java script</>";
+                    caja.classList.remove("oculto");
+
+                    const img = document.querySelector("#img");
+                    img.src = "img/aatrox.webp"
+                </p>
+            </div>
+            <div>
+                <h3>Formularios y Botones con Javascript</h3>
+                <p>se puede combinar html, css y js para hacer que el javascript guarde datos y/o responda haciendo una pagina responsiva</p>
+                <p>
+                    const butt = document.querySelector("#saludar");
+
+                    butt.addEventListener("click", function(){
+                            document.querySelector("h4").textContent = "Hola desde javascript"
+                        }
+                    );
+
+                    const form = document.querySelector("#form");
+
+                    form.addEventListener("submit", function (evento) {
+                        evento.preventDefault();
+                        const nombre = document.querySelector("#nombre").value;
+                        document.querySelector('#respuesta').textContent = "gracias por leer"
+                    }
+                    );
+                </p>
             </div>
         </section>
         <section class="extr" id="extr">
