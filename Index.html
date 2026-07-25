@@ -6,22 +6,28 @@
     <title>PROYECTO</title>
     <link rel="stylesheet" href="./css/style-root.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleheader.css">
+    <link rel="stylesheet" href="./css/styleaside.css">
     <link rel="stylesheet" href="./css/stylecss1.css">
     <link rel="stylesheet" href="./css/stylecss2.css">
     <link rel="stylesheet" href="./css/stylecss3.css">
     <link rel="stylesheet" href="./css/stylecss4.css">
+    <script src="./js/aside.js" defer></script>
+    <script src="./js/secc.js" defer></script>
 </head>
 <body>
     <header>
-        <div><img src="" alt=""></div>
-        <nav>
-            <ul>
-                <li><a href="">Iincio</a></li>
-                <li><a href="">Linux</a></li>
-                <li><a href="">Html</a></li>
-                <li><a href="">Css</a></li>
-                <li><a href="">Js</a></li>
-                <li><a href="">Extras</a></li>
+        <a href="#" class="navlog">
+            <img src="./img/logoproyecto.png" alt="loguito" class="navlog-img">
+        </a>
+        <nav class="naul">
+            <ul class="nav-lis">
+                <li><a href="#inicio" class="nav-a" id="linicio">Iincio</a></li>
+                <li><a href="#linux" class="nav-a" id="llinux">Linux</a></li>
+                <li><a href="#html" class="nav-a" id="lhtml">Html</a></li>
+                <li><a href="#css" class="nav-a" id="lcss">Css</a></li>
+                <li><a href="#js" class="nav-a" id="ljs">Js</a></li>
+                <li><a href="#extr" class="nav-a" id="lextr">Extras</a></li>
             </ul>
         </nav>
     </header>
@@ -29,12 +35,15 @@
         <div>
             <h1>My proyecto</h1>
         </div>
-        <section class="linux" id="linux">
+        <section class="inicio seccion activa" id="inicio">
+            <h2>My Perfile</h2>
+        </section>
+        <section class="linux seccion oculta" id="linux">
             <div>
 
             </div>
         </section>
-        <section class="html" id="html">
+        <section class="html seccion oculta" id="html">
             <div class="h2">
                 <h2>clases de Html </h2>
             </div>
@@ -215,7 +224,7 @@
                 </div>
             </div>
         </section>
-        <section class="css" id="css">
+        <section class="css seccion oculta" id="css">
             <div>
                 <h2 class="h2">Integracion de Css</h2>
             </div>
@@ -454,7 +463,7 @@
             </div>
 
         </section>
-        <section class="js" id="js">
+        <section class="js seccion oculta" id="js">
             <div>
                 <h2>entramos a javascript</h2>
             </div>
@@ -540,14 +549,26 @@
                 </p>
             </div>
         </section>
-        <section class="extr" id="extr">
+        <section class="extr seccion oculta" id="extr">
             <div>
 
             </div>
         </section>
     </main>
-    <aside>
-
+    <aside id="asides">
+        <button class="des" aria-label="btn-des" id="btn-des">
+            <span class="asi-icon">&#9776;</span>
+        </button>
+        <div class="side-conten">
+                <h3>Paginas de Ayuda</h3>
+                <ul>
+                    <li><a href="">
+                        <img src="./img/media1.png" alt="">
+                    </a></li>
+                    <li><a href=""><img src="./img/media1.png" alt=""></a></li>
+                    <li><a href=""><img src="./img/media1.png" alt=""></a></li>
+                </ul>
+        </div>        
     </aside>
     <footer>
         <div>
