@@ -19,4 +19,13 @@
     padding: 20px; 
     overflow-y: auto; 
     height: 100%;
+    text-align: center;
+}
+.img-a-aside{
+    width: 240px;
+    height: 130px;
+    border-radius: 10px;
+}
+.side-conten-h4{
+    color: var(--color-textsecc);
 }

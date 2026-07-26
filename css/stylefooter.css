@@ -1,0 +1,12 @@
+.footer{
+    padding: 10px;
+    text-align: center;
+}
+.clasredes{
+    display: flex;
+    justify-content: space-around;
+}
+.logfot{
+    width: 50px;
+    height: 50px;
+}

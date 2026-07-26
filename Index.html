@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="./css/style-root.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/styleheader.css">
+    <link rel="stylesheet" href="./css/stylemain.css">
     <link rel="stylesheet" href="./css/styleaside.css">
     <link rel="stylesheet" href="./css/stylecss1.css">
     <link rel="stylesheet" href="./css/stylecss2.css">
     <link rel="stylesheet" href="./css/stylecss3.css">
     <link rel="stylesheet" href="./css/stylecss4.css">
+    <link rel="stylesheet" href="./css/stylefooter.css">
     <script src="./js/aside.js" defer></script>
     <script src="./js/secc.js" defer></script>
+    <script src="./js/lenguajes.js"></script>
 </head>
 <body>
     <header>
@@ -31,19 +34,42 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <h1>My proyecto</h1>
+    <main class="main">
+        <div class="prin-div">
+            <h1 class="prin-h1">MY PROYECTO</h1>
         </div>
         <section class="inicio seccion activa" id="inicio">
-            <h2>My Perfile</h2>
+            <div>
+                <h2>My Perfile</h2>
+            </div>
+            <section class="secinicio">
+                <div class="secinicioder">
+                    <img src="./img/usuarioimg.png" alt="">
+                    <h2 class="secinicioder-h2">Oscar Rene Condori Arteaga</h2>
+                </div>
+                <div class="secinicioizq">
+                    <div class="secinicioizqarr">
+                        <p class="secinicioizqarrp">Estudiante de la carrera de informatica, con aspiraciones a crear juegos a futuro o a crear mods o trabajar para una empresa de renombre en el extarnjero </p>
+                        <p class="secinicioizqarrp">En mis momentos libres me pongo a jugar juegos de cualquier tipo mas que todo me gusta jugar juegos como league of legend o juegos de estrategia como age of empires, warcraft 3, age of mithology y otros</p>
+                        <p class="secinicioizqarrp">De momento solo se programar lo basico en phyton, html, css y javascript</p>
+                    </div>
+                    
+                    <div class="paadrtarjetas">
+                        <ul class="tarjetas">
+                            <li class="htarjetas"><a href="#html" class="leng" id="leng0">Html</a></li>
+                            <li class="htarjetas"><a href="#css" class="leng" id="leng1">Css</a></li>
+                            <li class="htarjetas"><a href="#js" class="leng" id="leng2">Js</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </section>
         <section class="linux seccion oculta" id="linux">
             <div>
 
             </div>
         </section>
-        <section class="html seccion oculta" id="html">
+        <section class="html seccion oculta seccin" id="html">
             <div class="h2">
                 <h2>clases de Html </h2>
             </div>
@@ -64,7 +90,7 @@
                         <li>medio</li>
                         <li>entrada</li>
                     </ol>
-                </div>%
+                </div>
                 <div>
                     <h3>Usando lo (dl)</h3>
                     <dl>
@@ -224,7 +250,7 @@
                 </div>
             </div>
         </section>
-        <section class="css seccion oculta" id="css">
+        <section class="css seccion oculta seccin" id="css">
             <div>
                 <h2 class="h2">Integracion de Css</h2>
             </div>
@@ -278,7 +304,7 @@
                         <li class="sli"><a href="">inicio</a></li>
                         <li class="sli"><a href="">somos nosotros</a></li>
                         <li class="sli"><a href="">validos</a></li>
-                        <li class="sli"><a href="">lengiajes favoritos</a></li>
+                        <li class="sli"><a href="">lenguajes favoritos</a></li>
                         <li class="sli"><a href="">la seccion final</a></li>
                     </ul>
                 </nav>
@@ -463,7 +489,7 @@
             </div>
 
         </section>
-        <section class="js seccion oculta" id="js">
+        <section class="js seccion oculta seccin" id="js">
             <div>
                 <h2>entramos a javascript</h2>
             </div>
@@ -560,32 +586,87 @@
             <span class="asi-icon">&#9776;</span>
         </button>
         <div class="side-conten">
-                <h3>Paginas de Ayuda</h3>
+                <h3 class="side-conten-h3">Paginas de Ayuda o Referencia</h3>
                 <ul>
-                    <li><a href="">
-                        <img src="./img/media1.png" alt="">
-                    </a></li>
-                    <li><a href=""><img src="./img/media1.png" alt=""></a></li>
-                    <li><a href=""><img src="./img/media1.png" alt=""></a></li>
+                    <li>
+                        <a href="#" class="a-aside">
+                            <img src="./img/loggit.png" alt="" class="img-a-aside">
+                        </a>
+                        <h4 class="side-conten-h4">Git-hub</h4>
+                    </li>
+                    <li>
+                        <a href="#" class="a-aside">
+                            <img src="./img/flexfroggylog.png" alt="" class="img-a-aside">
+                        </a>
+                        <h4 class="side-conten-h4">Flexbox-froggy</h4>
+                    </li>
+                    <li>
+                        <a href="#" class="a-aside">
+                            <img src="./img/w3schoolslog.png" alt="" class="img-a-aside">
+                        </a>
+                        <h4 class="side-conten-h4">w3schools</h4>
+                    </li>
+                    <li>
+                        <a href="#" class="a-aside">
+                            <img src="./img/envatomarketlog.jpg" alt="" class="img-a-aside">
+                        </a>
+                        <h4 class="side-conten-h4">Profile Envato</h4>
+                    </li>
+                    <li>
+                        <a href="#" class="a-aside">
+                            <img src="./img/adhamlog.jpg" alt="" class="img-a-aside">
+                        </a>
+                        <h4 class="side-conten-h4">Profile Adham</h4>
+                    </li>
+                    <li>
+                        <a href="#" class="a-aside">
+                            <img src="./img/brittanylog.png" alt="" class="img-a-aside">
+                        </a>
+                        <h4 class="side-conten-h4">Profile Brittany</h4>
+                    </li>
+                    <li>
+                        <a href="#" class="a-aside">
+                            <img src="./img/briceclainlog.png" alt="" class="img-a-aside">
+                        </a>
+                        <h4 class="side-conten-h4">Profile Bricelain</h4>
+                    </li>
                 </ul>
         </div>        
     </aside>
     <footer>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
+        <section class="footer">
+            <div>
+                <h3>sigueme en la redes</h3>
+            </div>
+            <section class="clasredes">
+                <div>
+                    <img src="./img/logfacebook.png" alt=" " class="logfot">
+                </div>
+                <div>
+                    <img src="./img/logx.webp" alt=" "class="logfot">
+                </div>
+                <div>
+                    <img src="./img/logdiscord.webp" alt=" "class="logfot">
+                </div>
+                <div>
+                    <img src="./img/loginstagram.png" alt="" class="logfot">
+                </div>
+                <div>
+                    <img src="./img/logreddit.png" alt="" class="logfot">
+                </div>
+                <div>
+                    <img src="./img/logtelegram.png" alt="" class="logfot">
+                </div><div>
+                    <img src="./img/logwhatsapp.png" alt="" class="logfot">
+                </div>
+                <div>
+                    <img src="./img/logtwitch.png" alt="" class="logfot">
+                </div>
+                <div>
+                    <img src="./img/logtiktok.webp" alt="" class="logfot">
+                </div>
+            </section>
+        </section>    
     </footer>
 </body>
 </html>
