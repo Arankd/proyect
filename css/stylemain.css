@@ -1,0 +1,92 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prin-div{
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: var(--color-fondprincipal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prin-h1{
+    color: var(--color-acentprincipal);
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+.inicio{
+    width: 100%;
+    padding: 2rem 1rem;
+}
+.secinicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+.secinicioder{
+    position: sticky;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+}
+.secinicioizq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+    text-align: center;
+}
+.secinicioizqarr{
+    padding: 2rem;
+    margin: 4rm 0;
+}
+.secinicioizqarrp{
+    padding: 20px;
+    margin: 20px;
+}
+.padrtarjetas{
+    padding: 2rem;
+    margin-top: 2rem;
+    border: 1px solid var(--color-acentprincipal);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+.htarjetas{
+    width: 350px;
+    height: 200px;
+    border: 1px solid var(--color-acentprincipal);
+    border-radius: 8px;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .secinicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secinicioder{
+        position: relative;
+        text-align: center;
+    } 
+    .secinicioizq{
+        position: relative;
+    }
+}

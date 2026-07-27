@@ -1,0 +1,17 @@
+.rotp{
+    background-color: var(--color-sprincipal);
+    color: var(--color-sacento);
+    border: solid 10px;
+    border-style: double;
+    border-radius: 5.45%;
+    padding: var(--espacio);
+}
+.roth{
+    color: var(--color-sacento);
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--color-sprincipal);
+    border: 1rem ;
+    border-style: groove;
+    box-sizing: border-box;
+}

@@ -1,0 +1,11 @@
+.slu{
+    list-style: none;
+    padding: 0;
+}
+.sli{
+    margin:  0 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
