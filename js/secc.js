@@ -18,7 +18,6 @@ linknav.forEach(link => {
         seccionActiva.classList.remove('oculta');
     });
 });
-
 const inisec = document.querySelectorAll('.leng');
 
 inisec.forEach(link => {

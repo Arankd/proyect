@@ -59,6 +59,7 @@
                             <li class="htarjetas"><a href="#html" class="leng" id="leng0">Html</a></li>
                             <li class="htarjetas"><a href="#css" class="leng" id="leng1">Css</a></li>
                             <li class="htarjetas"><a href="#js" class="leng" id="leng2">Js</a></li>
+                            <li class="htarjetas"><a href="#rs" class="leng" id="leng3">Registrate</a></li>
                         </ul>
                     </div>
                 </div>
@@ -580,6 +581,100 @@
 
             </div>
         </section>
+        <section class="formu seccion oculta" id="formu">
+            <div>
+                <section class="section-form">
+                    <h2>Registro de Usuarios</h2>
+                    <form class="formulario-usuario" id="formUsuario">
+                        <div class="form-data">
+                            <label for="nombre">Nombre</label>
+                            <input 
+                                type="text" 
+                                id="nombre" 
+                                name="nombre"
+                                required
+                            >
+                        </div>
+                        <div class="form-data">
+                            <label for="apellido">Apellido</label>
+                            <input 
+                                type="text" 
+                                id="apellido" 
+                                name="apellido"
+                                required
+                            >
+                        </div>
+                        <div class="form-data">
+                            <label for="correo">Correo</label>
+                            <input 
+                                type="email" 
+                                id="correo" 
+                                name="correo"
+                                required
+                            >
+                        </div>
+                        <div class="form-data">
+                            <label for="telefono">Telefono</label>
+                            <input 
+                                type="text" 
+                                id="telefono" 
+                                name="telefono"
+                                required
+                            >
+                        </div>
+                        <div class="form-data">
+                            <label for="telefono">Edad</label>
+                            <input 
+                                type="number" 
+                                id="edad" 
+                                name="edad"
+                                required
+                            >
+                        </div>
+                        <div class="form-data">
+                            <label for="genero">Genero</label>
+                            <select name="genero" id="genero">
+                                <option value="">Seleccione .....</option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Femenino">Femenino</option>
+                            </select>
+                        </div>
+                        <div class="form-data">
+                            <label for="direccion">Dirección</label>
+                            <textarea 
+                                id="direccion" 
+                                name="direccion" 
+                                rows="3">
+                            </textarea>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpiar</button>
+                        </div>
+                    </form>
+                </section>
+                <section class="section-usuarios">
+                    <table border="1" width="100%" id="tablaUsuarios">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Correo</th>
+                                <th>Teléfono</th>
+                                <th>Edad</th>
+                                <th>Género</th>
+                                <th>Dirección</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </section>
     </main>
     <aside id="asides">
         <button class="des" aria-label="btn-des" id="btn-des">
@@ -589,43 +684,43 @@
                 <h3 class="side-conten-h3">Paginas de Ayuda o Referencia</h3>
                 <ul>
                     <li>
-                        <a href="#" class="a-aside">
+                        <a href="https://github.com" class="a-aside" target="_blank">
                             <img src="./img/loggit.png" alt="" class="img-a-aside">
                         </a>
                         <h4 class="side-conten-h4">Git-hub</h4>
                     </li>
                     <li>
-                        <a href="#" class="a-aside">
+                        <a href="https://flexboxfroggy.com/#es" class="a-aside" target="_blank">
                             <img src="./img/flexfroggylog.png" alt="" class="img-a-aside">
                         </a>
                         <h4 class="side-conten-h4">Flexbox-froggy</h4>
                     </li>
                     <li>
-                        <a href="#" class="a-aside">
+                        <a href="https://www.w3schools.com" class="a-aside" target="_blank">
                             <img src="./img/w3schoolslog.png" alt="" class="img-a-aside">
                         </a>
                         <h4 class="side-conten-h4">w3schools</h4>
                     </li>
                     <li>
-                        <a href="#" class="a-aside">
+                        <a href="https://elements.envato.com/es/" class="a-aside" target="_blank">
                             <img src="./img/envatomarketlog.jpg" alt="" class="img-a-aside">
                         </a>
                         <h4 class="side-conten-h4">Profile Envato</h4>
                     </li>
                     <li>
-                        <a href="#" class="a-aside">
+                        <a href="https://www.adhamdannaway.com" class="a-aside" target="_blank">
                             <img src="./img/adhamlog.jpg" alt="" class="img-a-aside">
                         </a>
                         <h4 class="side-conten-h4">Profile Adham</h4>
                     </li>
                     <li>
-                        <a href="#" class="a-aside">
+                        <a href="https://brittanychiang.com" class="a-aside" target="_blank">
                             <img src="./img/brittanylog.png" alt="" class="img-a-aside">
                         </a>
                         <h4 class="side-conten-h4">Profile Brittany</h4>
                     </li>
                     <li>
-                        <a href="#" class="a-aside">
+                        <a href="https://briceclain.com/en/" class="a-aside" target="_blank">
                             <img src="./img/briceclainlog.png" alt="" class="img-a-aside">
                         </a>
                         <h4 class="side-conten-h4">Profile Bricelain</h4>
@@ -639,31 +734,59 @@
                 <h3>sigueme en la redes</h3>
             </div>
             <section class="clasredes">
-                <div>
-                    <img src="./img/logfacebook.png" alt=" " class="logfot">
+                <div class="clasredesh">
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                        <img src="./img/logfacebook.png" alt=" " class="logfot">
+                        <figcaption class="fica">Facebook</figcaption>
+                    </a>
                 </div>
-                <div>
-                    <img src="./img/logx.webp" alt=" "class="logfot">
+                <div class="clasredesh">
+                    <a href="https://x.com/?lang=es" target="_blank">
+                        <img src="./img/logx.webp" alt=" "class="logfot">
+                        <figcaption class="fica">X</figcaption>
+                    </a>
                 </div>
-                <div>
-                    <img src="./img/logdiscord.webp" alt=" "class="logfot">
+                <div class="clasredesh">
+                    <a href="https://discord.com" target="_blank">
+                        <img src="./img/logdiscord.webp" alt=" "class="logfot">
+                        <figcaption class="fica">Discord</figcaption>
+                    </a>
                 </div>
-                <div>
-                    <img src="./img/loginstagram.png" alt="" class="logfot">
+                <div class="clasredesh">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./img/loginstagram.png" alt="" class="logfot">
+                        <figcaption class="fica">Instagram</figcaption>
+                    </a>
                 </div>
-                <div>
-                    <img src="./img/logreddit.png" alt="" class="logfot">
+                <div class="clasredesh">
+                    <a href="https://www.reddit.com" target="_blank">
+                        <img src="./img/logreddit.png" alt="" class="logfot">
+                        <figcaption class="fica">Reddit</figcaption>
+                    </a>     
                 </div>
-                <div>
-                    <img src="./img/logtelegram.png" alt="" class="logfot">
-                </div><div>
-                    <img src="./img/logwhatsapp.png" alt="" class="logfot">
+                <div class="clasredesh">
+                    <a href="https://web.telegram.org/k/" target="_blank">
+                        <img src="./img/logtelegram.png" alt="" class="logfot">
+                        <figcaption class="fica">Telegram</figcaption>
+                    </a>
                 </div>
-                <div>
-                    <img src="./img/logtwitch.png" alt="" class="logfot">
+                <div class="clasredesh">
+                    <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+                        <img src="./img/logwhatsapp.png" alt="" class="logfot">
+                        <figcaption class="fica">Whatsapp</figcaption>
+                    </a>
                 </div>
-                <div>
-                    <img src="./img/logtiktok.webp" alt="" class="logfot">
+                <div class="clasredesh">
+                    <a href="https://www.tiktok.com/es-419/" target="_blank">
+                        <img src="./img/logtwitch.png" alt="" class="logfot">
+                        <figcaption class="fica">Twitch</figcaption>
+                    </a>
+                </div>
+                <div class="clasredesh">
+                    <a href="https://www.tiktok.com/es-419/" target="_blank">
+                        <img src="./img/logtiktok.webp" alt="" class="logfot">
+                        <figcaption class="fica">Tik Tok</figcaption>
+                    </a>
                 </div>
             </section>
         </section>    
