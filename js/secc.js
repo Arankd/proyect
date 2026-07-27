@@ -16,6 +16,9 @@ linknav.forEach(link => {
         const seccionActiva = document.getElementById(idSeccion);
         seccionActiva.classList.add('activa');
         seccionActiva.classList.remove('oculta');
+
+        // Añade esta línea para actualizar la URL sin recargar la página
+        history.pushState(null, '', href);
     });
 });
 const inisec = document.querySelectorAll('.leng');
@@ -35,6 +38,8 @@ inisec.forEach(link => {
         const seccionActiva = document.getElementById(idSeccion);
         seccionActiva.classList.add('activa');
         seccionActiva.classList.remove('oculta');
+
+        history.pushState(null, '', href);
     })
 })
 
